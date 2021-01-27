@@ -1,0 +1,64 @@
+#form .el-form {
+    border: 1px solid #dfdfdf;
+    /* padding-bottom: 1px; */
+}
+
+#form .el-form-item {
+    margin-bottom: 0;
+    height: 60px;
+}
+
+#form .el-form-item__label {
+    background: #f6f6f6;
+    height: 62px;
+    line-height: 60px;
+    border-right: 1px solid #dfdfdf;
+    border-left: 1px solid #dfdfdf;
+}
+
+#form .ruleForm .el-row .el-col:first-child .el-form-item__label {
+    border-left: none;
+}
+
+#form .el-form-item__error {
+    top: 0px;
+    right: 16px;
+    left: auto;
+    background: #fff;
+}
+#form .line-error .el-form-item__error {
+    top: 18px;
+}
+#form .el-form-item__content {
+    padding: 10px;
+}
+
+#form .ruleForm .el-row {
+    border-bottom: 1px solid #dfdfdf;
+    /* margin-bottom: 1px; */
+}
+
+#form .el-form .el-row:last-child {
+    border-bottom: none;
+}
+
+#form .el-form .el-select {
+    width: 100%;
+}
+
+#form .label-icon {
+    position: absolute;
+    font-size: 18px;
+    top: 21px;
+    color: #b42d28;
+}
+#form .btnGroup {
+    float: right;
+    margin: 20px 10px;
+}
+#form .el-form-item.is-success .el-input__inner,
+#form .el-form-item.is-success .el-input__inner:focus,
+#form .el-form-item.is-success .el-textarea__inner,
+#form .el-form-item.is-success .el-textarea__inner:focus {
+    border-color: #dcdfe6;
+}
